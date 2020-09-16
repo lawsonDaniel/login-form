@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <style>
+            body{
+                /* background-color: rgba(153, 153, 153, 0.208); */
+                background-image: url(Capture.PNG);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .container{
+                margin-top:200px;
+                width: 500px;
+            
+               
+            }
+            .input1{
+                border-top-right-radius: 7px;
+                border-top-left-radius: 7px;
+                border-bottom-right-radius: 0px;
+                border-bottom-left-radius: 0px;
+                background-color: rgb(56, 65, 66);
+                border: 0px;
+                height: 50px;
+            }
+            .input2{
+                border-top-right-radius: 0px;
+                border-top-left-radius: 0px;
+                border-bottom-right-radius: 7px;
+                border-bottom-left-radius: 7px;
+                background-color: rgb(56, 65, 66);
+                border: 0px;
+                height: 50px;
+            }
+            label{
+                font-size: 14px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+         
+        </style>
+</head>
+<body>
+<!-- <div class="container">
+    <h1>Example of div</h1>
+    <div>
+        <input type="text">
+    </div>
+    <div>
+        <input type="text">
+    </div>
+    <div>
+        <input type="text">
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, itaque.
+    </div>
+</div>
+
+<div class="container2">
+    <h1>Example of span</h1>
+    <span>
+        <input type="text">
+    </span>
+    <span>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, facere!
+    </span>
+    <span>
+        <input type="text">
+    </span>
+    <span>
+        <input type="text">
+    </span>
+</div> -->
+<!-- <div class="container"><form >
+<legend>Create Account</legend>
+<label for="name">
+Enter your name    <input id="name" type="email
+</label><br>
+<label for="password">
+    Enter your password   <input id="password" type="password">
+    </label><br>
+<input type="submit">
+
+</form></div> -->
+<div class="container">
+    <form>
+    	<div class="text-dark float-left display-4 mb-3">Login</div>
+    <label for="email" class="text-muted text-small sr-only">Enter your email
+    </label>
+    <input type="email" required id="email" class="form-control input1 mb-1  " placeholder="Enter your email">
+    
+    <label for="password"  class="text-muted text-small sr-only">Enter your password password
+    </label>
+    <input type="password" required id="pasword" class="form-control input2 mb-3" placeholder="password">
+    <input type="submit" class="btn btn-outline-dark btn-block">
+    </form>
+</div>
+
+</body>
+</html>
